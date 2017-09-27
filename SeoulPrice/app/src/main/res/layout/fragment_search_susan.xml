@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/list_susan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--/////////////////////////////////////구분선////////////////////////////////////-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80.75dp">
+
+            <TextView
+                android:id="@+id/tvJogi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="41dp"
+                android:text="조기"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tvJogi"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/tvJogi"
+                android:layout_toRightOf="@+id/tvJogi"
+                android:text="(1마리)"
+                android:textSize="13dp" />
+
+            <Button
+                android:id="@+id/susan_minusButton_1"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="13.2dp"
+                android:layout_toLeftOf="@+id/susan_plusButton_1"
+                android:layout_toStartOf="@+id/susan_plusButton_1"
+                android:background="@drawable/add_button_empty"
+                android:paddingTop="3dp"
+                android:tag="susan_plusButton_1/조기"
+                android:text="-"
+                android:textColor="#0a91c1"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/susan_plusButton_1"
+                android:layout_width="43.25dp"
+                android:layout_height="43.25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="26dp"
+                android:background="@drawable/add_button_empty"
+                android:paddingTop="3dp"
+                android:tag="susan_minusButton_1/조기"
+                android:text="+"
+                android:textColor="#0a91c1"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80.75dp">
+
+            <TextView
+                android:id="@+id/tvGodeung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="41dp"
+                android:text="고등어"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tvGodeung"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/tvGodeung"
+                android:layout_toRightOf="@+id/tvGodeung"
+                android:text="(1마리)"
+                android:textSize="13dp" />
+
+            <Button
+                android:id="@+id/susan_minusButton_2"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="13.2dp"
+                android:layout_toLeftOf="@+id/susan_plusButton_2"
+                android:layout_toStartOf="@+id/susan_plusButton_2"
+                android:background="@drawable/add_button_empty"
+                android:paddingTop="3dp"
+                android:tag="susan_plusButton_2/고등어"
+                android:text="-"
+                android:textColor="#0a91c1"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/susan_plusButton_2"
+                android:layout_width="43.25dp"
+                android:layout_height="43.25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="26dp"
+                android:background="@drawable/add_button_empty"
+                android:paddingTop="3dp"
+                android:tag="susan_minusButton_2/고등어"
+                android:text="+"
+                android:textColor="#0a91c1"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80.75dp">
+
+            <TextView
+                android:id="@+id/tvDongtae"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="41dp"
+                android:text="동태"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tvDongtae"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/tvDongtae"
+                android:layout_toRightOf="@+id/tvDongtae"
+                android:text="(1마리)"
+                android:textSize="13dp" />
+
+            <Button
+                android:id="@+id/susan_minusButton_3"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="13.2dp"
+                android:layout_toLeftOf="@+id/susan_plusButton_3"
+                android:layout_toStartOf="@+id/susan_plusButton_3"
+                android:background="@drawable/add_button_empty"
+                android:paddingTop="3dp"
+                android:tag="susan_plusButton_3/동태"
+                android:text="-"
+                android:textColor="#0a91c1"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/susan_plusButton_3"
+                android:layout_width="43.25dp"
+                android:layout_height="43.25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="26dp"
+                android:background="@drawable/add_button_empty"
+                android:paddingTop="3dp"
+                android:tag="susan_minusButton_3/동태"
+                android:text="+"
+                android:textColor="#0a91c1"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80.75dp">
+
+            <TextView
+                android:id="@+id/tvMyungtae"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="41dp"
+                android:text="명태"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tvMyungtae"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/tvMyungtae"
+                android:layout_toRightOf="@+id/tvMyungtae"
+                android:text="(1마리)"
+                android:textSize="13dp" />
+
+            <Button
+                android:id="@+id/susan_minusButton_4"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="13.2dp"
+                android:layout_toLeftOf="@+id/susan_plusButton_4"
+                android:layout_toStartOf="@+id/susan_plusButton_4"
+                android:background="@drawable/add_button_empty"
+                android:paddingTop="3dp"
+                android:tag="susan_plusButton_4/명태"
+                android:text="-"
+                android:textColor="#0a91c1"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/susan_plusButton_4"
+                android:layout_width="43.25dp"
+                android:layout_height="43.25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="26dp"
+                android:background="@drawable/add_button_empty"
+                android:paddingTop="3dp"
+                android:tag="susan_minusButton_4/명태"
+                android:text="+"
+                android:textColor="#0a91c1"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80.75dp">
+
+            <TextView
+                android:id="@+id/tvOzing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="41dp"
+                android:text="오징어"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tvOzing"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/tvOzing"
+                android:layout_toRightOf="@+id/tvOzing"
+                android:text="(1마리)"
+                android:textSize="13dp" />
+
+            <Button
+                android:id="@+id/susan_minusButton_5"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="13.2dp"
+                android:layout_toLeftOf="@+id/susan_plusButton_5"
+                android:layout_toStartOf="@+id/susan_plusButton_5"
+                android:background="@drawable/add_button_empty"
+                android:paddingTop="3dp"
+                android:tag="susan_plusButton_5/오징어"
+                android:text="-"
+                android:textColor="#0a91c1"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/susan_plusButton_5"
+                android:layout_width="43.25dp"
+                android:layout_height="43.25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="26dp"
+                android:background="@drawable/add_button_empty"
+                android:paddingTop="3dp"
+                android:tag="susan_minusButton_5/오징어"
+                android:text="+"
+                android:textColor="#0a91c1"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

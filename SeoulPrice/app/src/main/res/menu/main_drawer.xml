@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/nav_recent"
+            android:icon="@drawable/side_recent_2"
+            android:title="최근 장바구니" />
+        <item
+            android:id="@+id/nav_oneeye"
+            android:icon="@drawable/side_oneeye"
+            android:title="서울 물가 한눈에 보기" />
+        <item
+            android:id="@+id/nav_nearby"
+            android:icon="@drawable/side_nearby_2"
+            android:title="내 주변 상점" />
+        <item
+            android:id="@+id/nav_appinfo"
+            android:icon="@drawable/side_appinfo"
+            android:title="앱 정보" />
+
+</menu>

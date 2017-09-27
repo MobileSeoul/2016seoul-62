@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="97dp"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    >
+
+    <FrameLayout
+        android:id="@+id/for_reveal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/selected"
+            android:layout_width="6dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/tab_background_selected"
+            android:visibility="invisible" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="30.5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true">
+
+                <TextView
+                    android:id="@+id/cartName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cartDate"
+                    android:text="홈플러스 잠실점"
+                    android:textSize="18dp"
+                    android:textStyle="italic"
+                    android:transitionName="placeName" />
+
+                <TextView
+                    android:id="@+id/cartDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5.2km"
+                    android:textColor="#f39c12"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/martPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cartName"
+                    android:layout_marginTop="3dp"
+                    android:text="47,500원"
+                    android:textSize="25dp" />
+
+                <ImageView
+                    android:id="@+id/btn_detail"
+                    android:layout_width="43.25dp"
+                    android:layout_height="43.25dp"
+                    android:src="@drawable/button_detail"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/view_reveal2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:visibility="invisible" />
+
+    </FrameLayout>
+</RelativeLayout>

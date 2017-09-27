@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#A6000000" />
+
+        <RelativeLayout
+            android:id="@+id/dialog_root"
+            android:background="@android:color/white"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="170dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/dialog_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016.10.21"
+                android:textColor="#f39c12"
+                android:textSize="15dp" />
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/dialog_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:background="@drawable/thickness2"
+                android:layout_below="@+id/dialog_date"
+                android:hint="장바구니 이름 입력" />
+
+
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/dialog_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:textColor="@color/colorPrimary"
+                    android:text="취소" />
+
+                <Button
+                    android:id="@+id/btn_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:textColor="@color/colorPrimary"
+                    android:text="저장" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>

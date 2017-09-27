@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_nongsan"
+    android:layout_width="match_parent"
+    android:layout_height="800dp"
+    android:orientation="vertical">
+
+    <!--/////////////////////////////////////구분선////////////////////////////////////-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/tvMu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="41dp"
+            android:text="무"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tvMu"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/tvMu"
+            android:layout_toRightOf="@+id/tvMu"
+            android:text="(1kg)"
+            android:textSize="13dp" />
+
+        <Button
+            android:id="@+id/nongsan_minusButton_1"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13.2dp"
+            android:layout_toLeftOf="@+id/nongsan_plusButton_1"
+            android:layout_toStartOf="@+id/nongsan_plusButton_1"
+            android:background="@drawable/add_button_empty"
+            android:paddingTop="3dp"
+            android:tag="nongsan_plusButton_1/무"
+            android:text="-"
+            android:textColor="#0a91c1"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/nongsan_plusButton_1"
+            android:layout_width="43.25dp"
+            android:layout_height="43.25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="26dp"
+            android:background="@drawable/add_button_empty"
+            android:paddingTop="3dp"
+            android:tag="nongsan_minusButton_1/무"
+            android:text="+"
+            android:textColor="#0a91c1"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <!--/////////////////////////////////////구분선////////////////////////////////////-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/tvBae"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="41dp"
+            android:text="배"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tvBae"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/tvBae"
+            android:layout_toRightOf="@+id/tvBae"
+            android:text="(1개)"
+            android:textSize="13dp" />
+
+        <Button
+            android:id="@+id/nongsan_minusButton_2"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13.2dp"
+            android:layout_toLeftOf="@+id/nongsan_plusButton_2"
+            android:layout_toStartOf="@+id/nongsan_plusButton_2"
+            android:background="@drawable/add_button_empty"
+            android:paddingTop="3dp"
+            android:tag="nongsan_plusButton_2/배"
+            android:text="-"
+            android:textColor="#0a91c1"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/nongsan_plusButton_2"
+            android:layout_width="43.25dp"
+            android:layout_height="43.25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="26dp"
+            android:background="@drawable/add_button_empty"
+            android:paddingTop="3dp"
+            android:tag="nongsan_minusButton_2/배"
+            android:text="+"
+            android:textColor="#0a91c1"
+            android:textSize="20dp" />
+    </RelativeLayout>
+    <!--/////////////////////////////////////구분선////////////////////////////////////-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/tvBaechu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="41dp"
+            android:text="배추"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tvBaechu"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/tvBaechu"
+            android:layout_toRightOf="@+id/tvBaechu"
+            android:text="(1포기)"
+            android:textSize="13dp" />
+
+        <Button
+            android:id="@+id/nongsan_minusButton_3"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13.2dp"
+            android:layout_toLeftOf="@+id/nongsan_plusButton_3"
+            android:layout_toStartOf="@+id/nongsan_plusButton_3"
+            android:background="@drawable/add_button_empty"
+            android:paddingTop="3dp"
+            android:tag="nongsan_plusButton_3/배추"
+            android:text="-"
+            android:textColor="#0a91c1"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/nongsan_plusButton_3"
+            android:layout_width="43.25dp"
+            android:layout_height="43.25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="26dp"
+            android:background="@drawable/add_button_empty"
+            android:paddingTop="3dp"
+            android:tag="nongsan_minusButton_3/배추"
+            android:text="+"
+            android:textColor="#0a91c1"
+            android:textSize="20dp" />
+    </RelativeLayout>
+    <!--/////////////////////////////////////구분선////////////////////////////////////-->
+    농산물
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/tvSaga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="41dp"
+            android:text="사과"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tvSaga"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/tvSaga"
+            android:layout_toRightOf="@+id/tvSaga"
+            android:text="(1개)"
+            android:textSize="13dp" />
+
+        <Button
+            android:id="@+id/nongsan_minusButton_4"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13.2dp"
+            android:layout_toLeftOf="@+id/nongsan_plusButton_4"
+            android:layout_toStartOf="@+id/nongsan_plusButton_4"
+            android:background="@drawable/add_button_empty"
+            android:paddingTop="3dp"
+            android:tag="nongsan_plusButton_4/사과"
+            android:text="-"
+            android:textColor="#0a91c1"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/nongsan_plusButton_4"
+            android:layout_width="43.25dp"
+            android:layout_height="43.25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="26dp"
+            android:background="@drawable/add_button_empty"
+            android:paddingTop="3dp"
+            android:tag="nongsan_minusButton_4/사과"
+            android:text="+"
+            android:textColor="#0a91c1"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/tvSangchu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="41dp"
+            android:text="상추"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tvSangchu"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/tvSangchu"
+            android:layout_toRightOf="@+id/tvSangchu"
+            android:text="(100g)"
+            android:textSize="13dp" />
+
+        <Button
+            android:id="@+id/nongsan_minusButton_5"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13.2dp"
+            android:layout_toLeftOf="@+id/nongsan_plusButton_5"
+            android:layout_toStartOf="@+id/nongsan_plusButton_5"
+            android:background="@drawable/add_button_empty"
+            android:paddingTop="3dp"
+            android:tag="nongsan_plusButton_5/상추"
+            android:text="-"
+            android:textColor="#0a91c1"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/nongsan_plusButton_5"
+            android:layout_width="43.25dp"
+            android:layout_height="43.25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="26dp"
+            android:background="@drawable/add_button_empty"
+            android:paddingTop="3dp"
+            android:tag="nongsan_minusButton_5/상추"
+            android:text="+"
+            android:textColor="#0a91c1"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/tvAehobak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="41dp"
+            android:text="애호박"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tvAehobak"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/tvAehobak"
+            android:layout_toRightOf="@+id/tvAehobak"
+            android:text="(1개)"
+            android:textSize="13dp" />
+
+        <Button
+            android:id="@+id/nongsan_minusButton_6"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13.2dp"
+            android:layout_toLeftOf="@+id/nongsan_plusButton_6"
+            android:layout_toStartOf="@+id/nongsan_plusButton_6"
+            android:background="@drawable/add_button_empty"
+            android:paddingTop="3dp"
+            android:tag="nongsan_plusButton_6/애호박"
+            android:text="-"
+            android:textColor="#0a91c1"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/nongsan_plusButton_6"
+            android:layout_width="43.25dp"
+            android:layout_height="43.25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="26dp"
+            android:background="@drawable/add_button_empty"
+            android:paddingTop="3dp"
+            android:tag="nongsan_minusButton_6/애호박"
+            android:text="+"
+            android:textColor="#0a91c1"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/tvYangpa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="41dp"
+            android:text="양파"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tvYangpa"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/tvYangpa"
+            android:layout_toRightOf="@+id/tvYangpa"
+            android:text="(1망)"
+            android:textSize="13dp" />
+
+        <Button
+            android:id="@+id/nongsan_minusButton_7"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13.2dp"
+            android:layout_toLeftOf="@+id/nongsan_plusButton_7"
+            android:layout_toStartOf="@+id/nongsan_plusButton_7"
+            android:background="@drawable/add_button_empty"
+            android:paddingTop="3dp"
+            android:tag="nongsan_plusButton_7/양파"
+            android:text="-"
+            android:textColor="#0a91c1"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/nongsan_plusButton_7"
+            android:layout_width="43.25dp"
+            android:layout_height="43.25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="26dp"
+            android:background="@drawable/add_button_empty"
+            android:paddingTop="3dp"
+            android:tag="nongsan_minusButton_7/양파"
+            android:text="+"
+            android:textColor="#0a91c1"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/tvOe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="41dp"
+            android:text="오이"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tvOe"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/tvOe"
+            android:layout_toRightOf="@+id/tvOe"
+            android:text="(1개)"
+            android:textSize="13dp" />
+
+        <Button
+            android:id="@+id/nongsan_minusButton_8"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13.2dp"
+            android:layout_toLeftOf="@+id/nongsan_plusButton_8"
+            android:layout_toStartOf="@+id/nongsan_plusButton_8"
+            android:background="@drawable/add_button_empty"
+            android:paddingTop="3dp"
+            android:tag="nongsan_plusButton_8/오이"
+            android:text="-"
+            android:textColor="#0a91c1"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/nongsan_plusButton_8"
+            android:layout_width="43.25dp"
+            android:layout_height="43.25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="26dp"
+            android:background="@drawable/add_button_empty"
+            android:paddingTop="3dp"
+            android:tag="nongsan_minusButton_8/오이"
+            android:text="+"
+            android:textColor="#0a91c1"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/tvHobak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="41dp"
+            android:text="호박"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tvHobak"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/tvHobak"
+            android:layout_toRightOf="@+id/tvHobak"
+            android:text="(1개)"
+            android:textSize="13dp" />
+
+        <Button
+            android:id="@+id/nongsan_minusButton_9"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13.2dp"
+            android:layout_toLeftOf="@+id/nongsan_plusButton_9"
+            android:layout_toStartOf="@+id/nongsan_plusButton_9"
+            android:background="@drawable/add_button_empty"
+            android:paddingTop="3dp"
+            android:tag="nongsan_plusButton_9/호박"
+            android:text="-"
+            android:textColor="#0a91c1"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/nongsan_plusButton_9"
+            android:layout_width="43.25dp"
+            android:layout_height="43.25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="26dp"
+            android:background="@drawable/add_button_empty"
+            android:paddingTop="3dp"
+            android:tag="nongsan_minusButton_9/호박"
+            android:text="+"
+            android:textColor="#0a91c1"
+            android:textSize="20dp" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="38dp">
+
+        <TextView
+            android:id="@+id/tv_join_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="71dp"
+            android:text="가까운 장소에서"
+            android:textColor="#c9c9c9"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/tv_join_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_join_title"
+            android:text="저렴한 가격으로."
+            android:textColor="#c9c9c9"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/tv_join_description1"
+            android:layout_marginTop="43.5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_join_title1"
+            android:textColor="#6b6b6b"
+            android:textSize="14dp"
+            android:text="물건을 담고 가격을 비교해보세요."/>
+
+        <TextView
+            android:id="@+id/tv_join_description2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_join_description1"
+            android:textColor="#6b6b6b"
+            android:textSize="14dp"
+            android:text="Price Place가 주변의 최저가 상점을 찾아줍니다."/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/actionButton1"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="45dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:src="@drawable/join_icon_white"
+            app:borderWidth="0dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/join_second_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingLeft="38dp"
+        android:visibility="invisible"
+        tools:context="com.example.ye0jun.seoulprice.JoinActivity">
+
+
+        <ImageView
+            android:id="@+id/iv_join_icon"
+            android:layout_width="20dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="71dp"
+            android:src="@drawable/join_icon_white" />
+
+        <TextView
+            android:id="@+id/tv_join_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_join_icon"
+            android:layout_marginTop="0dp"
+            android:text="주소를 입력하세요."
+            android:textColor="@android:color/white"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/tv_join_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_join_text1"
+            android:layout_marginTop="43.5dp"
+            android:text="입력하신 주소를 기준으로"
+            android:textColor="@android:color/white"
+            android:textSize="14dp" />
+
+        <LinearLayout
+            android:id="@+id/tv_join_text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_join_text2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="가까운 상점/저렴한 상점을"
+                android:textColor="@android:color/white"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 찾아드립니다."
+                android:textColor="@android:color/white"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_join_text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_join_text3"
+            android:text="상점에 따라, 품목에 따라 매일 변하는 가격을"
+            android:textColor="@android:color/white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tv_join_text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_join_text4"
+            android:text="한눈에 비교해보세요."
+            android:textColor="@android:color/white"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/et_join_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_join_text5"
+            android:layout_marginRight="38dp"
+            android:layout_marginTop="37.5dp"
+            android:background="@drawable/thickness"
+            android:hint="예) 명동 123-1"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/actionButton"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="45dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@android:color/white"
+            android:src="@drawable/join_btn_next1"
+            app:borderWidth="0dp" />
+
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/join_address"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+    </WebView>
+
+    <ImageView
+        android:id="@+id/view_reveal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:visibility="invisible" />
+</FrameLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="38dp">
+
+    <TextView
+        android:id="@+id/tv_join_jangbogi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="71dp"
+        android:text="장보기"
+        android:textColor="#c9c9c9"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/tv_join_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_join_jangbogi"
+        android:layout_marginTop="10dp"
+        android:text="가까운 장소에서"
+        android:textColor="#c9c9c9"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tv_join_title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_join_title"
+        android:text="저렴한 가격으로."
+        android:textColor="#c9c9c9"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tv_join_description1"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_join_title1"
+        android:textColor="#c9c9c9"
+        android:text="물건을 담고 가격을 비교해보세요."/>
+
+    <TextView
+        android:id="@+id/tv_join_description2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_join_description1"
+        android:textColor="#c9c9c9"
+        android:text="Price Place가 주변의 최저가 상점을 찾아줍니다."/>
+
+</RelativeLayout>

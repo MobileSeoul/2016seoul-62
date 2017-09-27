@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/list_chooksan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--/////////////////////////////////////구분선////////////////////////////////////-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80.75dp">
+
+            <TextView
+                android:id="@+id/tvEgg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="41dp"
+                android:text="달걀"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tvEgg"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/tvEgg"
+                android:layout_toRightOf="@+id/tvEgg"
+                android:text="(10개)"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/chooksan_minusButton_1"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="13.2dp"
+                android:layout_toLeftOf="@+id/chooksan_plusButton_1"
+                android:layout_toStartOf="@+id/chooksan_plusButton_1"
+                android:background="@drawable/add_button_empty"
+                android:paddingTop="3dp"
+                android:tag="chooksan_plusButton_1/달걀"
+                android:text="-"
+                android:textColor="#0a91c1"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/chooksan_plusButton_1"
+                android:layout_width="43.25dp"
+                android:layout_height="43.25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="26dp"
+                android:background="@drawable/add_button_empty"
+                android:paddingTop="3dp"
+                android:tag="chooksan_minusButton_1/달걀"
+                android:text="+"
+                android:textColor="#0a91c1"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80.75dp">
+
+            <TextView
+                android:id="@+id/tvChicken"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="41dp"
+                android:text="닭고기"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tvChicken"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/tvChicken"
+                android:layout_toRightOf="@+id/tvChicken"
+                android:text="(1마리)"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/chooksan_minusButton_2"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="13.2dp"
+                android:layout_toLeftOf="@+id/chooksan_plusButton_2"
+                android:layout_toStartOf="@+id/chooksan_plusButton_2"
+                android:background="@drawable/add_button_empty"
+                android:paddingTop="3dp"
+                android:tag="chooksan_plusButton_2/닭고기"
+                android:text="-"
+                android:textColor="#0a91c1"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/chooksan_plusButton_2"
+                android:layout_width="43.25dp"
+                android:layout_height="43.25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="26dp"
+                android:background="@drawable/add_button_empty"
+                android:paddingTop="3dp"
+                android:tag="chooksan_minusButton_2/닭고기"
+                android:text="+"
+                android:textColor="#0a91c1"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80.75dp">
+
+            <TextView
+                android:id="@+id/tvPork"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="41dp"
+                android:text="삼겹살"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tvPork"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/tvPork"
+                android:layout_toRightOf="@+id/tvPork"
+                android:text="(600g)"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/chooksan_minusButton_3"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="13.2dp"
+                android:layout_toLeftOf="@+id/chooksan_plusButton_3"
+                android:layout_toStartOf="@+id/chooksan_plusButton_3"
+                android:background="@drawable/add_button_empty"
+                android:paddingTop="3dp"
+                android:tag="chooksan_plusButton_3/삼겹살"
+                android:text="-"
+                android:textColor="#0a91c1"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/chooksan_plusButton_3"
+                android:layout_width="43.25dp"
+                android:layout_height="43.25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="26dp"
+                android:background="@drawable/add_button_empty"
+                android:paddingTop="3dp"
+                android:tag="chooksan_minusButton_3/삼겹살"
+                android:text="+"
+                android:textColor="#0a91c1"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80.75dp">
+
+            <TextView
+                android:id="@+id/tvBeef"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="41dp"
+                android:text="쇠고기"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tvBeef"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/tvBeef"
+                android:layout_toRightOf="@+id/tvBeef"
+                android:text="(600g)"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/chooksan_minusButton_4"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="13.2dp"
+                android:layout_toLeftOf="@+id/chooksan_plusButton_4"
+                android:layout_toStartOf="@+id/chooksan_plusButton_4"
+                android:background="@drawable/add_button_empty"
+                android:paddingTop="3dp"
+                android:tag="chooksan_plusButton_4/쇠고기"
+                android:text="-"
+                android:textColor="#0a91c1"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/chooksan_plusButton_4"
+                android:layout_width="43.25dp"
+                android:layout_height="43.25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="26dp"
+                android:background="@drawable/add_button_empty"
+                android:paddingTop="3dp"
+                android:tag="chooksan_minusButton_4/쇠고기"
+                android:text="+"
+                android:textColor="#0a91c1"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

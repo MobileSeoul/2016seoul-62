@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="97dp"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/selected"
+        android:layout_width="6dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/tab_background_selected"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="30.5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/cartDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016.10.21"
+                android:textColor="#f39c12"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/btn_detail"
+                android:layout_width="43.25dp"
+                android:layout_height="43.25dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/button_detail" />
+
+            <TextView
+                android:id="@+id/cartName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Do you know BiBimBap?"
+                android:textSize="25dp"
+                android:textStyle="italic"
+                android:transitionName="placeName"
+                android:layout_below="@+id/cartDate"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
